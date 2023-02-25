@@ -28,7 +28,17 @@ header{
 }
 
 h1{
-    font-size: 10rem;
+    font-size: 10.0rem;
+}
+
+h2{
+    font-size: 7rem;
+    text-align: center;
+}
+
+#parrafo-h2{
+    font-size: 3.4rem;
+    margin: 30px;
 }
 
 .nav-bar-header{
@@ -47,7 +57,7 @@ h1{
 	text-shadow: 1px 1px;
 }
 
-h3{
+.h3-inicio{
     font-size: 7rem;
     text-align: center;
     background-image: url(https://images.theconversation.com/files/393210/original/file-20210401-13-z6rl6z.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop);
@@ -58,18 +68,19 @@ h3{
 
 .p-inicio{
         font-size: 4rem;
-        padding-top: 45px;
+        padding: 49px;
         text-justify: center;
 }
 
 #parrafo-video{
-    font-size: 3.7rem;
+    font-size: 4rem;
+    padding: 30px;
 }
 
-#creditos{
+/* #creditos{
     font-size: 16px;
-    margin-top: 160px;
-}
+    padding-bottom: 20px; 
+} */
 
 .footer-nocta{
     background-color: #8D8685;
@@ -93,4 +104,29 @@ h3{
 .margin-social-media{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.img-sizement{
+    width: 360px;
+    height: 500px;
+}
+
+.h3-accesorios{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    /* margin-top: 10rem; */
+}
+
+.back-negro{
+    background-color: #000000;
+}
+
+.white-font{
+    color: #ffff;
+}
+
+.lista-accesorios{
+    margin: 70px;
+    font-size: 30px;
 }
